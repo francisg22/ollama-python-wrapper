@@ -1,7 +1,8 @@
 # remotelocalllm
 
-A small CLI client that chats with your **remote Ollama server** (the RTX 3080 Ti
-Windows box on your tailnet) and feeds it **context from the internet and your
+DISCLAIMER: Completely created with claude code
+
+A small CLI client that chats with your **remote Ollama server** and feeds it **context from the internet and your
 local machine** — search results, fetched web pages, piped command output, and
 local files. Inference runs on the GPU box; all fetching happens locally on the
 laptop, then gets handed to the model as context (RAG-style).
