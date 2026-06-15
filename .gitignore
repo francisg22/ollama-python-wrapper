@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local config / secrets (don't commit anything with your tailnet host, keys, etc.)
+.env
+*.local
+
+# editor swap files
+*.swp
+*.swo
+*~
